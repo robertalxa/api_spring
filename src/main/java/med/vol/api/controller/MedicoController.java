@@ -9,7 +9,7 @@ import med.vol.api.medico.DadosCadastroMedico;
 
 @RestController
 @RequestMapping("/medicos") // Mapeia as requisições para /medicos
-public class Medico {
+public class MedicoController {
 
     @PostMapping
     public void cadastraMedico(@RequestBody DadosCadastroMedico dados) {
